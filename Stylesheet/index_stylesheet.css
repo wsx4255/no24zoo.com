@@ -1,0 +1,300 @@
+/*
+
+a. All pics/maps were produced by the team.
+
+b. The theme color is #00FA91 #F6A0C0 #02FBFE #FFFFFF
+
+c. The content font is Comic Sans MS; the topic font is Charcoal or sans-serif families
+*/
+
+/*BASIC USE FOR CSS---------------------------------*/
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: white;
+    height: 100%;
+    }
+
+h1{
+    font-family: Charcoal, Arial, sans-serif;
+    font-style:italic;
+    font-variant: normal;
+    font-weight: bold;
+    font-size: 2em;
+    color: white;
+    letter-spacing: 2px; word-spacing: 2px;
+    text-align: center
+}
+
+h2{
+    font-family: Comic Sans MS, Arial, sans-serif;
+    font-style:normal;
+    font-variant: normal;
+    font-weight: bold;
+    font-size: 36px;
+    color: black; 
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+
+p{
+    font-family: Comic Sans MS, Arial, sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: black;
+    letter-spacing: 2px; word-spacing: 2px;
+    line-height: 50px;
+}
+
+
+/*HEADER CSS---------------------------------*/
+header{
+    grid-area: header;
+    background:white;
+    padding-top:2%;
+	text-align: center;
+}
+
+/*Line under logo*/
+hr.style1 {
+    border-top: 6px dotted #7A81FF;
+    width:65%;
+    text-align: center;
+}
+
+.slogan{
+    font-size: 26px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-weight: lighter;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+/*slogan content*/
+    #GreenZoo{
+        color: #00FA91; letter-spacing: 5px;  text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 2px 0 #000, -1px 0 0 #000;
+    }
+
+    #Blue24{
+        color: #02FBFE;  letter-spacing: 5px; text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 2px 0 #000, -1px 0 0 #000;">
+    }
+    #Pink24{
+        color: #F6A0C0;  letter-spacing: 5px;  text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 2px 0 #000, -1px 0 0 #000;
+    }
+
+
+/*NAVBAR CSS---------------------------------*/
+nav{
+	grid-area: nav;
+    background-color: #5E5E5E;
+	text-align: center;
+	padding-top:25px;
+	padding-bottom:25px;
+    padding-left:50px;
+	padding-right:50px;
+}
+.bar{
+    display:flex;
+    justify-content: center;
+    list-style-type:none;
+}
+
+.button{
+	 margin: 80px;
+     text-decoration: none;
+     color: white;
+     font-size: 28px;
+     letter-spacing: 2px;
+     font-weight: bold;
+}
+
+
+/*FOOTER CSS---------------------------------*/
+footer{
+    background-color: #000000;
+}
+footer .row {
+	padding: 40px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+    footer .row .column-one {
+    float: left;
+    width: 33.3%;
+    }
+    footer .row .column-two {
+    float: left;
+    width: 33.3%;
+    }
+    footer .row .column-three {
+    float: left;
+    width: 33.3%;
+    }
+
+/*footer column1*/
+    #copyright{
+        letter-spacing: 2px;
+        word-spacing: 2px;
+        color: #85A8BE;
+        margin-left: 35px;
+        font-size:16px;
+        line-height: normal;
+    }
+
+    #footer_social ul li a{
+        cursor: pointer;
+    }
+    #footer_social ul li {
+         display:inline;
+    }
+    #footer_social .fa {
+        padding: 7px;
+        font-size: 26px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+        border-radius: 50%;
+        background:#ffffff;
+        color: #000000;
+    }
+    #footer_social .fa:hover {
+        opacity: 0.7;
+    }
+
+/*footer column2*/
+    #companyname{
+        letter-spacing: 2px;
+        word-spacing: 2px;
+        color: #ffffff;
+        font-weight: bold;
+        line-height: normal;
+        font-size:22px;
+    }
+
+    #address{
+        letter-spacing: 2px;
+        word-spacing: 2px;
+        color: #E2D9CC;
+        line-height: normal;
+        font-size:20px;
+    }
+
+/*footer column3*/
+    #letter{
+        color: #ffffff;
+        letter-spacing: 2px;
+        word-spacing: 2px;
+        line-height: normal;
+        font-size:20px;
+    }
+
+    input {
+        font-size: 18px;
+        letter-spacing: 2px;
+        word-spacing: 2px;
+        padding-bottom: 5px;
+        border: 0;
+        outline: 0;
+        background: transparent;
+        border-bottom: 1px solid #EFEFEF;
+        color: #ffffff;
+        width: 80%;
+    }
+    ::-webkit-input-placeholder { /* Edge */
+        color: #396B6B;
+    }
+    :-ms-input-placeholder { /* Internet Explorer */
+        color: #396B6B;
+    }
+    ::placeholder {
+        color: #396B6B;
+    }
+
+/*The above part should be the same in each page*/
+/*The above part should be the same in each page*/
+/*The above part should be the same in each page*/
+
+
+
+
+/*PAGE 1 CONTENT*/
+/*CONTENT CSS---------------------------------*/
+
+/*1st session*/
+    .photo{
+        width:100%;
+    }
+
+    #cover {
+        text-align: center;
+        margin:auto;
+    }
+    #news{
+        background-color: #F6A0C0;
+        padding:10px;
+        width:100%;
+        height: auto;
+    }
+
+/*2nd session*/
+    .photo2{
+        width:75%
+    }
+    .events{
+        background-color: #ffffff;
+        margin:auto;
+        padding:30px;
+    }
+    .events .column{
+        float: left;
+        width: 33%;
+        text-align: center;
+        }
+    .call{
+        padding:20px;
+        margin:auto;
+        width:30%;
+        clear:both;
+
+    }
+
+/*last session*/
+    hr.style2 {
+      border-top: 6px dotted red;
+      width:65%;
+      text-align: center;
+    }
+    .about{
+        background-color: #00FA91;
+        margin:auto;
+        padding:30px;
+        height:auto;
+    }
+
+    .about .introwords{
+        float:left;
+        width: 60%;
+        line-height: normal;
+        margin-left: auto;
+        margin-right:auto;
+        padding:30px;
+    }
+
+    .photo3{
+        padding: 30px;
+        width:40%;
+        max-width: 400px;
+        max-height: 600px;
+    }
+    .autoheight{
+        clear:both;
+    }
