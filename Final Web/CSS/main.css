@@ -1,0 +1,444 @@
+
+@import url(font-awesome.min.css);
+
+
+/*--------- Background ---------*/
+/*Referred from Colorlib, ‘Personal’, 2020, Available: https://colorlib.com/download/997/ [Accessed: 20-Aug-2020]*/
+.facts-area, .number-area{
+	background: -moz-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+  	background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+  	background: -ms-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+}
+
+.carousel-item{
+	background-color: #000;
+}
+
+.breadbackground{
+	background-color: black;
+	border: 0;
+}
+
+
+
+/*--------- Boxes ---------*/
+.section-gap {
+	padding: 50px 20px;
+}
+
+.card{
+	padding-bottom: 10pem;
+}
+
+.card-img-top{
+	max-height: 180px;
+}
+
+.container{
+	padding:10pem;
+
+}
+
+.controller1{
+	display: block;
+	padding:5px 5px;
+	background-color: #000;
+	color:#fff;
+	width: 300px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/*--------- Special  Text ---------*/
+.intro-sm{
+	font-size: 12px;
+	text-align: justify;
+	text-justify: auto;
+}
+
+.intro-mid{
+	font-size: 15px;
+	text-align: justify;
+	text-justify: auto;
+}
+
+
+.text{
+	width: 300px;
+	padding: 20px;
+	background-color: #ccc;
+}
+
+.s-icon{
+	color:#8490ff;
+}
+
+.jumbo {
+	margin:0;
+	color:#EC4365;
+	font-size:200%;
+	white-space:nowrap;
+}
+
+
+/*--------- Popup ---------*/
+.popup{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	z-index: 100;
+	background: rgba(0,0,0,.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.popup .text{
+	width:90%;
+	max-width: 500px;
+	max-height: 80%;
+	background-color: #FFF;
+	padding: 20px;
+	position: relative;
+}
+
+.popup .text .bin-close{
+	position: absolute;
+	width: 30px;
+	height:30px;
+	line-height: 30px;
+	text-align: center;
+	background-color: #000;
+	color: #fff;
+	text-decoration: none;
+	top:-15px;
+	right:-15px;
+	border-radius: 50%;
+}
+
+/*--------- Embedded Items ---------*/
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
+.video-container iframe, .video-container object, .video-container embed {
+	position: absolute;
+	top: 0;left: 0;
+	width: 100%;
+	height: 100%;
+	padding-bottom: 56.25%
+	padding-top: 25px
+}
+
+.rwd-map {
+	display: block; position: relative;
+	overflow: hidden; height: 0; padding: 0;
+	padding-bottom: 50%;
+}
+.rwd-map iframe {
+	position: absolute;
+	height: 100%; width: 100%;
+	left: 0; top: 0;
+}
+
+
+/*--------- Blocks ---------*/
+.single-services {
+	text-align: center;
+	margin-top: 60px;
+}
+
+.single-services .lnr {
+	font-size: 35px;
+	color: #222;
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+
+.single-services h4 {
+	margin-top: 30px;
+	margin-bottom: 20px;
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+
+.single-services p {
+	max-width: 318px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.single-services:hover h4 {
+	color: #8490ff;
+}
+
+
+/*--------- Numbers ---------*/
+.single-fact {
+	text-align: center;
+}
+
+.single-fact h1, .single-fact p {
+	color: #fff;
+}
+
+.single-fact h1 {
+	font-weight: 700;
+}
+
+@media (max-width: 800px) {
+	.single-fact {
+		margin-bottom: 30px;
+  }
+}
+
+
+
+/*--------- Gallery ---------*/
+/*referrred from templated,’Caminar’, 2017, Available: https://templated.co/caminar. [Accessed: 20-Aug-2020]*/
+
+.gallery {
+	width: 100%;
+	margin: 0;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-moz-flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-moz-align-items: stretch;
+	-webkit-align-items: stretch;
+	-ms-align-items: stretch;
+	align-items: stretch;
+}
+
+	.gallery .image.fit {
+		margin: 0;
+	}
+
+	.gallery > * {
+		-moz-flex-shrink: 1;
+		-webkit-flex-shrink: 1;
+		-ms-flex-shrink: 1;
+		flex-shrink: 1;
+		-moz-flex-grow: 0;
+		-webkit-flex-grow: 0;
+		-ms-flex-grow: 0;
+		flex-grow: 0;
+	}
+
+	.gallery > * {
+		width: 100%;
+	}
+
+	@media screen and (max-width: 980px) {
+
+		.gallery > * {
+			width: 100%;
+		}
+}
+
+
+/*--------- Footer ---------*/
+
+.mainFooter{
+	background-color: #000;
+	color: #FFF;
+	padding:20px;
+}
+	#footer {
+		padding: 2rem 0 0.1rem 0 ;
+		text-align: center;
+	}
+
+		#footer a {
+			color: rgba(255, 255, 255, 0.75);
+		}
+
+			#footer a:hover {
+				color: #FFF;
+			}
+
+		#footer .copyright {
+			color: #bbb;
+			font-size: 0.9rem;
+			margin: 0 0 2rem 0;
+			padding: 0 1rem;
+			text-align: center;
+		}
+
+		@media screen and (max-width: 736px) {
+
+			#footer {
+				padding: 1rem 0 0.1rem 0 ;
+			}
+
+		}
+
+	.icon {
+		text-decoration: none;
+		border-bottom: none;
+		position: relative;
+		color:#fff;
+	}
+
+		.icon:before {
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+			font-family: FontAwesome;
+			font-style: normal;
+			font-weight: normal;
+			text-transform: none !important;
+		}
+
+		.icon > .label {
+			display: none;
+		}
+
+/*--------- Icon List ---------*/
+/*Referred from referred from Colorlib, ‘Personal’, 2020, Available: https://colorlib.com/download/997/ [Accessed: 20-Aug-2020]*/
+
+	ul {
+		list-style: disc;
+		margin: 0 0 1rem 0;
+		padding-left: 2rem;
+	}
+
+		ul li {
+			padding-left: 0.5rem;
+		}
+
+		ul.icons {
+			cursor: default;
+			list-style: none;
+			padding-left: 0;
+		}
+
+			ul.icons li {
+				display: inline-block;
+				padding: 0 1rem 0 0;
+			}
+
+				ul.icons li:last-child {
+					padding-right: 0;
+				}
+
+				ul.icons li .icon:before {
+					font-size: 2rem;
+				}
+
+		ul.actions {
+			cursor: default;
+			list-style: none;
+			padding-left: 0;
+		}
+
+			ul.actions li {
+				display: inline-block;
+				padding: 0 1rem 0 0;
+				vertical-align: middle;
+			}
+
+				ul.actions li:last-child {
+					padding-right: 0;
+				}
+
+			ul.actions.small li {
+				padding: 0 0.5rem 0 0;
+			}
+
+			ul.actions.vertical li {
+				display: block;
+				padding: 1rem 0 0 0;
+			}
+
+				ul.actions.vertical li:first-child {
+					padding-top: 0;
+				}
+
+				ul.actions.vertical li > * {
+					margin-bottom: 0;
+				}
+
+			ul.actions.vertical.small li {
+				padding: 0.5rem 0 0 0;
+			}
+
+				ul.actions.vertical.small li:first-child {
+					padding-top: 0;
+				}
+
+			ul.actions.fit {
+				display: table;
+				margin-left: -1rem;
+				padding: 0;
+				table-layout: fixed;
+				width: calc(100% + 1rem);
+			}
+
+				ul.actions.fit li {
+					display: table-cell;
+					padding: 0 0 0 1rem;
+				}
+
+					ul.actions.fit li > * {
+						margin-bottom: 0;
+					}
+
+				ul.actions.fit.small {
+					margin-left: -0.5rem;
+					width: calc(100% + 0.5rem);
+				}
+
+					ul.actions.fit.small li {
+						padding: 0 0 0 0.5rem;
+					}
+
+			@media screen and (max-width: 480px) {
+
+				ul.actions {
+					margin: 0 0 2rem 0;
+				}
+
+					ul.actions li {
+						padding: 1rem 0 0 0;
+						display: block;
+						text-align: center;
+						width: 100%;
+					}
+
+						ul.actions li:first-child {
+							padding-top: 0;
+						}
+
+						ul.actions li > * {
+							width: 100%;
+							margin: 0 !important;
+						}
+
+							ul.actions li > *.icon:before {
+								margin-left: -2rem;
+							}
+
+					ul.actions.small li {
+						padding: 0.5rem 0 0 0;
+					}
+
+						ul.actions.small li:first-child {
+							padding-top: 0;
+						}
+
+			}
+
